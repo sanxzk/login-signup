@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+.signup-text-container {
+  background-color: #3ab399e7;
+  width: 30vw;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 2rem 0rem 0rem 2rem;
+}
+.signup-text-container h1{
+    font-size: 3rem;
+}
+.signup-text-container p {
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+font-size: 1.15rem;
+  text-align: center;
+}
+
+.signup-text-container button {
+  border: 1px solid white;
+  border-radius: 2rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  width: 13rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+  background-color: transparent;
+}
+.signup-text-container button:hover {
+  cursor: pointer;
+  animation: changeColor 1s linear 0s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes changeColor {
+  0% {
+    background-color: #3ab399;
+  }
+  100% {
+    background-color: #176B87;
+  }
+}

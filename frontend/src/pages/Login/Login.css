@@ -1,0 +1,12 @@
+.login-container {
+    width: 80vw;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    overflow: hidden;
+  }
+  .login-form-container {
+    margin: 0rem;
+  }
+  

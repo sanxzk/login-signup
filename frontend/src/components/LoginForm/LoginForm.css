@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+
+.loginForm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  margin: 0rem;
+  background-color: rgba(255, 255, 255);
+  height: 80vh;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+.loginForm-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #4cbaa2;
+}
+.auth-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.auth-icons img {
+  width: 30px;
+  margin:0em 0.75em ;
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  padding: 20px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.loginForm-container p {
+    margin: 1em auto;
+  text-align: center;
+  color: #9b9f9d;
+}
+.loginForm-container form{
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 50%;
+}
+.loginForm-container form input{
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin: 0.25em 0em;
+    border: none;
+    background-color: #F4F8F7;
+    border-radius: 0.5em;
+}
+.loginForm-container form input:focus{
+    outline: none;
+}
+.loginForm-container form button{
+    width: 40%;
+    margin: 1.25em auto 0.25em auto;
+    background-color: #4cbaa2;
+    padding: 0.75em 1em;
+    border: none;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
